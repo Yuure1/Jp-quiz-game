@@ -1,0 +1,80 @@
+item 0 is: to
+answer is: to
+mu
+yu
+to
+wa
+-------------
+ 
+item 1 is: shi
+answer is: shi
+ku
+shi
+ru
+ro
+-------------
+ 
+item 2 is: ma
+answer is: ma
+e
+ma
+ro
+so
+-------------
+ 
+item 3 is: te
+answer is: te
+ya
+to
+te
+se
+-------------
+ 
+item 4 is: he
+answer is: he
+shi
+ya
+yo
+he
+-------------
+ 
+item 5 is: so
+answer is: so
+ru
+so
+ro
+ra
+-------------
+ 
+item 6 is: ro
+answer is: ro
+ki
+mo
+ko
+ro
+-------------
+ 
+item 7 is: n
+answer is: n
+ro
+se
+ne
+n
+-------------
+ 
+item 8 is: o
+answer is: o
+mo
+o
+ko
+e
+-------------
+ 
+item 9 is: ya
+answer is: ya
+na
+se
+re
+ya
+-------------
+ 
