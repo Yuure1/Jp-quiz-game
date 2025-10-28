@@ -10,6 +10,10 @@ using namespace std;
 #include "LoadMedia.h"
 #include "stateManager.h"
 #include "Test.h"
+#include "Text.h"
+
+#include "SDL3_ttf/SDL_ttf.h" // sdl font
+
 
 enum State // states for screen manager
 {
@@ -27,7 +31,7 @@ extern bool quitPressed;
 
 extern const int screenWidth;
 extern const int screenHeight;
-const int S = 1;
+const int S = 10;
 const int M = 23;
 const int L = 46;
 
@@ -43,4 +47,5 @@ extern string quizType;
 extern bool generated;
 extern int mistakes;
 extern bool wronged;
-extern bool shown;
+
+extern string score;

@@ -80,14 +80,22 @@ void itemGenv2()
     Button d(1010, 890, ("assets/romaji/" + (items[3]) + ".png"), "dummy"); 
 }
 
+
+
 void resetQuiz() {
     if ((timeLooped == itemNo) && (itemAnswered)) {
         cout << "quiz reset." << endl;
 
-        if(!shown) { // to temporarily show score
-            int score = itemNo - mistakes;
-            cout << score << "/" << itemNo << endl;
-        }
+        int s = itemNo - mistakes;
+
+        score = to_string(s) + "/" + to_string(itemNo);
+
+        
+
+        
+
+        /*cout << "your score is: " << score << endl;
+        cout << "your string says: " << a << endl;*/
         
         mistakes = 0;
         kana.clear();

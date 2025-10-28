@@ -7,4 +7,5 @@ string quizType;
 bool generated;
 int mistakes = 0;
 bool wronged; // initially false if u dont specify state
-bool shown = false;
+
+string score;

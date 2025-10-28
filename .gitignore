@@ -1,0 +1,7 @@
+Makefile/ 
+SDL3.dll/ 
+SDL3_image.dll/ 
+SDL3_ttf.dll/
+file.txt/
+.vscode/
+src/

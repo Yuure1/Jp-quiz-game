@@ -1,6 +1,8 @@
 #include "../headers/globals.h" 
 #include "../headers/Buttons.h"
 
+bool placeholder = false;
+
 void fillScreen()
 {
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
@@ -35,8 +37,9 @@ void update()
             Button play      (100, 550, "assets/play.png", 3);   
             Button settings  (100, 680, "assets/settingsBtn.png", 1);  
             Button quit      (100, 810, "assets/quitBtn.png", 2); 
-            loadFont();
-            
+
+            placeholder = false; // placeholder, as the name suggests lol
+
             generated = false;
             
             break;
@@ -85,6 +88,10 @@ void update()
 
         {
             Background choice1Bg("assets/choice1.png");
+
+            Text myobj(score, "assets/fonts/DelaSukoGothicOne-R.ttf", 90, 700, 700);
+
+            //cout << score << endl; // display score in this state
             
             Button back   (100, 900, "assets/backBtn.png", 0);
             break;

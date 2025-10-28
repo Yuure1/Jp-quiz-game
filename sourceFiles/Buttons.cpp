@@ -69,6 +69,7 @@ Button::Button(int x, int y, string path) // default constructor
 
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255); // draw rect outline
     SDL_RenderRect(renderer, &rect);                  // draw hitbox
+    SDL_DestroyTexture(texture);
 }
 
 Button::Button(int x, int y, string path, int s) : Button(x,y,path) { // state switcher buttons
@@ -87,7 +88,4 @@ Button::Button(int x, int y, string path, string placeholder) : Button(x,y,path)
     detectClick(checkAnswer, path);
 }
 
-Button::~Button() // destructor
-{
-    SDL_DestroyTexture(texture);
-}
+Button::~Button(){}

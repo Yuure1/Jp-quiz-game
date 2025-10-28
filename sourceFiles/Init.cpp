@@ -2,15 +2,8 @@
 #include "../headers/globals.h"
 #include "../include/SDL3/SDL.h"
 
-#include "SDL3_ttf/SDL_ttf.h" // sdl font
-
-#include <iostream>
-using namespace std;
-
 SDL_Window* window = NULL;
 SDL_Renderer* renderer = NULL; 
-
-
 
 SDL_Event event;
 
@@ -28,21 +21,22 @@ void init()
     cout << ". . .\n";
 }
 
-TTF_Font *font = NULL; // make font variable
-SDL_Color red = {255, 0, 0};
+/* TTF_Font *font = NULL; // make font variable
+SDL_Color black = {0, 0, 255};
 
 SDL_FRect msgRect;
 
-void loadFont() {
-    font = TTF_OpenFont("assets/fonts/DelaSukoGothicOne-R.ttf", 12);
+void displayText(string text, int size, int x, int y, string fontPath) {
+    font = TTF_OpenFont(fontPath.c_str(), size); // .c_str to convert string to const char
 
-    SDL_Surface *txt = TTF_RenderText_Solid(font, "test", 4, red);
+    SDL_Surface *txt = TTF_RenderText_Solid(font, text.c_str(), text.length(), black);
     SDL_Texture *msg = SDL_CreateTextureFromSurface(renderer, txt);
+    SDL_DestroySurface(txt);
     
-    msgRect.x = 1200;
-    msgRect.y = 400;
-    msgRect.w = 400;
-    msgRect.h = 120;
+    msgRect.x = x;
+    msgRect.y = y;
+    msgRect.w = size * 1;
+    msgRect.h = size * 1;
 
     SDL_RenderTexture(renderer, msg, NULL, &msgRect);
-}
+} */

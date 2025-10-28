@@ -1,4 +1,5 @@
 #pragma once
+#include "globals.h"
 
 void init();
-void loadFont();
+void displayText(string text, int size, int x, int y, string fontPath);

@@ -1,4 +1,4 @@
-obj = main.cpp sourceFiles/Init.cpp sourceFiles/Buttons.cpp sourceFiles/stateManager.cpp  sourceFiles/Background.cpp sourceFiles/Test.cpp sourceFiles/globals.cpp
+obj = main.cpp sourceFiles/Init.cpp sourceFiles/Buttons.cpp sourceFiles/stateManager.cpp  sourceFiles/Background.cpp sourceFiles/Test.cpp sourceFiles/globals.cpp sourceFiles/Text.cpp
 
 cc = g++
 
