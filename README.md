@@ -7,4 +7,4 @@ Full = 46 items <br />
 
 **Note:** The Hiragana (ひらがな) and Katakana (カタカナ) option only include the basic 46 characters and not the diacritics and digraphs.
 
-unzip _dependencies_ folder and copy its contents to the folder's <ins>relative path</ins>.
+unzip _dependencies_ folder and copy all its contents outside the folder.
